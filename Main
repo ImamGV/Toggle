@@ -1,5 +1,4 @@
-local Toggle = {}
-local function Toggle:Add()
+
 local ScreenGui2= Instance.new("ScreenGui", game:GetService("Players").LocalPlayer.PlayerGui)
 ScreenGui2.Name = "HelpGUI"
 ScreenGui2.ResetOnSpawn = true
@@ -28,4 +27,3 @@ end
 end
 end)
 end
-return Toggle
